@@ -12,9 +12,9 @@ export default function Home() {
         <Link href="/crete-account" className="primary-btn text-lg py-2.5 ">
           시작하기
         </Link>
-        <div>
+        <div className="flex flex-row gap-2">
           <span>이미 계정이 있나요?</span>
-          <Link href="/login" className="hover:underline">
+          <Link href="/login" className="hover:underline ">
             로그인
           </Link>
         </div>
